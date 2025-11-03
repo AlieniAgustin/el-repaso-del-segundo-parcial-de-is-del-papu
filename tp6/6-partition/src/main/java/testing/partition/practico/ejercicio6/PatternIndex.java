@@ -22,6 +22,9 @@ public class PatternIndex {
 		int subjectLen = subject.length();
 		int patternLen = pattern.length();
 
+    if(subjectLen == 0 || patternLen == 0)
+      return NOTFOUND;
+
 		while (isPat == false && iSub + patternLen - 1 < subjectLen)
 		{
 			if (subject.charAt(iSub) == pattern.charAt(0))

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="testing.partition.practico.ejercicio6.TestPatternIndex" tests="9" skipped="0" failures="0" errors="0" timestamp="2025-11-02T23:54:54" hostname="alieni" time="0.026">
+  <properties/>
+  <testcase name="subjectIsEmptyAndPatternIsNull()" classname="testing.partition.practico.ejercicio6.TestPatternIndex" time="0.002"/>
+  <testcase name="patternIsInTheFinalOfSubject()" classname="testing.partition.practico.ejercicio6.TestPatternIndex" time="0.002"/>
+  <testcase name="subjectIsNullAndPatternIsNotEmpty()" classname="testing.partition.practico.ejercicio6.TestPatternIndex" time="0.002"/>
+  <testcase name="patternAppearsSeveralTimesInSubject()" classname="testing.partition.practico.ejercicio6.TestPatternIndex" time="0.002"/>
+  <testcase name="subjectAndPatternAreEmpty()" classname="testing.partition.practico.ejercicio6.TestPatternIndex" time="0.001"/>
+  <testcase name="subjectIsNotEmptyAndPatternIsNull()" classname="testing.partition.practico.ejercicio6.TestPatternIndex" time="0.001"/>
+  <testcase name="patternIsNotInSubject()" classname="testing.partition.practico.ejercicio6.TestPatternIndex" time="0.001"/>
+  <testcase name="subjectIsNullAndPatternIsEmpty()" classname="testing.partition.practico.ejercicio6.TestPatternIndex" time="0.002"/>
+  <testcase name="subjectAndPatternAreNull()" classname="testing.partition.practico.ejercicio6.TestPatternIndex" time="0.002"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

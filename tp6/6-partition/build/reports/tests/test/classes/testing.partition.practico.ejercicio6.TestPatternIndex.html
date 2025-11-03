@@ -3,17 +3,17 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
 <meta http-equiv="x-ua-compatible" content="IE=edge"/>
-<title>Test results - TestBoundedQueue</title>
+<title>Test results - TestPatternIndex</title>
 <link href="../css/base-style.css" rel="stylesheet" type="text/css"/>
 <link href="../css/style.css" rel="stylesheet" type="text/css"/>
 <script src="../js/report.js" type="text/javascript"></script>
 </head>
 <body>
 <div id="content">
-<h1>TestBoundedQueue</h1>
+<h1>TestPatternIndex</h1>
 <div class="breadcrumbs">
 <a href="../index.html">all</a> &gt; 
-<a href="../packages/testing.partition.practico.ejercicio5.html">testing.partition.practico.ejercicio5</a> &gt; TestBoundedQueue</div>
+<a href="../packages/testing.partition.practico.ejercicio6.html">testing.partition.practico.ejercicio6</a> &gt; TestPatternIndex</div>
 <div id="summary">
 <table>
 <tr>
@@ -23,7 +23,7 @@
 <tr>
 <td>
 <div class="infoBox" id="tests">
-<div class="counter">8</div>
+<div class="counter">9</div>
 <p>tests</p>
 </div>
 </td>
@@ -41,7 +41,7 @@
 </td>
 <td>
 <div class="infoBox" id="duration">
-<div class="counter">0.051s</div>
+<div class="counter">0.015s</div>
 <p>duration</p>
 </div>
 </td>
@@ -75,42 +75,47 @@
 </tr>
 </thead>
 <tr>
-<td class="success">basicTest()</td>
-<td class="success">0.033s</td>
-<td class="success">passed</td>
-</tr>
-<tr>
-<td class="success">deQueueWithEmptyQueue()</td>
+<td class="success">patternAppearsSeveralTimesInSubject()</td>
 <td class="success">0.002s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
-<td class="success">emptyQueue()</td>
-<td class="success">0.004s</td>
+<td class="success">patternIsInTheFinalOfSubject()</td>
+<td class="success">0.002s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
-<td class="success">enQueueWithFullQueue()</td>
-<td class="success">0.003s</td>
-<td class="success">passed</td>
-</tr>
-<tr>
-<td class="success">enQueueWithNull()</td>
-<td class="success">0.003s</td>
-<td class="success">passed</td>
-</tr>
-<tr>
-<td class="success">illegalQueue()</td>
-<td class="success">0.003s</td>
-<td class="success">passed</td>
-</tr>
-<tr>
-<td class="success">isEmptyWithEmptyQueue()</td>
+<td class="success">patternIsNotInSubject()</td>
 <td class="success">0.001s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
-<td class="success">isFullWithFullQueue()</td>
+<td class="success">subjectAndPatternAreEmpty()</td>
+<td class="success">0.001s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">subjectAndPatternAreNull()</td>
+<td class="success">0.002s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">subjectIsEmptyAndPatternIsNull()</td>
+<td class="success">0.002s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">subjectIsNotEmptyAndPatternIsNull()</td>
+<td class="success">0.001s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">subjectIsNullAndPatternIsEmpty()</td>
+<td class="success">0.002s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">subjectIsNullAndPatternIsNotEmpty()</td>
 <td class="success">0.002s</td>
 <td class="success">passed</td>
 </tr>
