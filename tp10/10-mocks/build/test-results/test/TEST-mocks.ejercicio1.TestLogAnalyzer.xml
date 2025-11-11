@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="mocks.ejercicio1.TestLogAnalyzer" tests="3" skipped="0" failures="0" errors="0" timestamp="2025-11-11T14:22:01" hostname="alieni" time="0.118">
+<testsuite name="mocks.ejercicio1.TestLogAnalyzer" tests="3" skipped="0" failures="0" errors="0" timestamp="2025-11-11T14:52:12" hostname="alieni" time="0.017">
   <properties/>
-  <testcase name="test1()" classname="mocks.ejercicio1.TestLogAnalyzer" time="0.09"/>
-  <testcase name="test2()" classname="mocks.ejercicio1.TestLogAnalyzer" time="0.019"/>
+  <testcase name="test1()" classname="mocks.ejercicio1.TestLogAnalyzer" time="0.008"/>
+  <testcase name="test2()" classname="mocks.ejercicio1.TestLogAnalyzer" time="0.002"/>
   <testcase name="test3()" classname="mocks.ejercicio1.TestLogAnalyzer" time="0.003"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>

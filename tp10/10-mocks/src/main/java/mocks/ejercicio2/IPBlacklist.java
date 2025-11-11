@@ -50,8 +50,8 @@ public class IPBlacklist {
 	}
 	
 	private void blacklistIP(String ip) {
-			IPblacklist.add(ip);
-	}
+		IPblacklist.add(ip);
+  }
 	
 	public boolean blacklisted(String ip) {
 		return IPblacklist.contains(ip);
